@@ -20,7 +20,7 @@ begin
   MyBitmap:= TBitmap.Create;
   try
     MyBitmap.LoadFromDevice(MyDC);
-    MyBitmap.SaveToFile(concat(path,'panel',inttostr(random(10000)),'.bmp'));
+    MyBitmap.SaveToFile(Path);
   finally
     ReleaseDC(Container.Handle, MyDC);
     FreeAndNil(MyBitmap);
