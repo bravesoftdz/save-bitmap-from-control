@@ -25,6 +25,6 @@ begin
     ReleaseDC(Container.Handle, MyDC);
     FreeAndNil(MyBitmap);
   end;
-end
+end;
 
 end.
