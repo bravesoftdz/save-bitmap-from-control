@@ -5,7 +5,7 @@ unit uControlCapture;
 interface
 
 uses
-  Classes, SysUtils, Controls, Graphs, LCLIntf, LCLType;
+  Classes, SysUtils, Controls, Graphics, LCLIntf, LCLType;
 
 procedure SaveContainerAsImage(Container: TWinControl; Path: string);
 
